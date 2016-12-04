@@ -1,0 +1,89 @@
+body{
+	font-family: Arial;
+}
+
+.top{
+	float:right;
+	font-size: 13px;
+}
+
+#gmail, #images {
+	margin: 10px;
+}
+
+#signin{
+	height: 36px;
+	background-color: #4285F4;
+
+	border: 1px solid #4285F4;
+	border-radius: 2px;
+
+	font-size:13px;
+	font-weight:bold;
+	color:#ffffff;
+
+	padding: 0 10px 0 10px;
+	margin: 0 10px 0 10px;
+
+}
+
+.middle{
+	position: absolute;
+	text-align: center;
+	width:100%;
+	top:200px;
+}
+
+#searchbox{
+	font-size: 16px;
+	height: 34px;
+	width:600px;
+	margin: 10px 0 20px 0;
+}
+
+#searchbutton, #feelinglucky {
+	height: 36px;
+	background-color: #f2f2f2;
+
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+
+	font-size: 13px;
+	font-weight: bold;
+	color:#757575;
+
+	margin: 10px 4px;
+}
+
+.bottomright {
+    float: right;
+}
+
+#advertising, #business, #about, #privacy, #terms, #settings{
+	margin: 0 10px 0 10px;
+	color:#757575;
+}
+
+.bottomleft {
+	float: left;
+}
+
+.footer{
+	position:absolute;
+	padding: 1em;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	font-size: small;
+}
+
+a:link{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
