@@ -16,7 +16,8 @@ body{
 }
 
 .top{
-	float:right;
+	position:absolute;
+	right: 0;
 	margin: 10px;
 	font-size: 13px;
 }
@@ -38,6 +39,11 @@ body{
 
 	padding: 0 10px 0 10px;
 	margin: 0 10px 0 10px;
+}
+
+#signin:active{
+	background-color:#386ABC;
+	border: 1px solid #386ABC;
 }
 
 .middle{
@@ -63,16 +69,39 @@ body{
 
 	font-size: 13px;
 	font-weight: bold;
-	color:#757575;
+	color:#555;
 
 	padding: 0 16px;
 	margin: 10px 6px 0 6px;
 }
 
 #searchbutton:hover, #feelinglucky:hover{
-	border: 1px solid #757575;
-	color:#000000;
-	box-shadow: 0 1px #f2f2f2;
+	background-color: #F8F8F8;
+	background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+	border: 1px solid #C6C6C6;
+	color: #333;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+}
+
+#searchbutton:focus, #feelinglucky:focus{
+	border: 1px solid #4d90fe;
+	    border-top-width: 1px;
+	    border-right-width: 1px;
+	    border-bottom-width: 1px;
+	    border-left-width: 1px;
+	    border-top-style: solid;
+	    border-right-style: solid;
+	    border-bottom-style: solid;
+	    border-left-style: solid;
+	    border-top-color: rgb(77, 144, 254);
+	    border-right-color: rgb(77, 144, 254);
+	    border-bottom-color: rgb(77, 144, 254);
+	    border-left-color: rgb(77, 144, 254);
+	    border-image-source: none;
+	    border-image-slice: 100% 100% 100% 100%;
+	    border-image-width: 1 1 1 1;
+	    border-image-outset: 0 0 0 0;
+	    border-image-repeat: stretch stretch;
 }
 
 .footer{
